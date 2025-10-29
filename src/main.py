@@ -19,6 +19,7 @@ async def setup_hook():
         await bot.load_extension('cogs.cookie')
         await bot.load_extension('cogs.events') 
         await bot.load_extension('cogs.fabula') 
+        await bot.load_extension('cogs.lama') 
         await bot.load_extension('cogs.limbo')
         await bot.load_extension('cogs.pokemon')
         await bot.load_extension('cogs.reddit')
