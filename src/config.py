@@ -8,6 +8,7 @@ TOKEN = os.getenv('TOKEN')
 REDDIT_CLIENT_ID = os.getenv('REDDIT_CLIENT_ID')
 REDDIT_CLIENT_SECRET = os.getenv('REDDIT_CLIENT_SECRET')
 MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD')
+OLLAMA_API_KEY = os.getenv('OLLAMA_API_KEY')
 
 # ----------- DISCORD -----------
 

@@ -11,6 +11,8 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 
+# TODO: Create Django Web Dashboard to display the "Top Cookie Holders" or "Trivia Leaderboard" from the bot's database.
+
 # tb implemented
 async def setup_hook():
     print("Loading cogs...")
